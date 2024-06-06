@@ -46,12 +46,12 @@
 
    `john --format=crypt hashinput`
 
-john va lancer l'analyse et effectuer différentes attaques jusqu'à trouver la bonne combinaison.
+      - john va lancer l'analyse et effectuer différentes attaques jusqu'à trouver la bonne combinaison.
 
-L'option --format permet de préciser le type de hashage utilisé, ici *"crypt"* pour *"generic crypt"*
+      - L'option --format permet de préciser le type de hashage utilisé, ici *"crypt"* pour *"generic crypt"*
 
-Vous pouvez trouver l'intégralité des formats supportés par JTR [ici](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)
+      - Vous pouvez trouver l'intégralité des formats supportés par JTR [ici](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)
 
-4) JTR va lancer l'analyse et retourner les résultats, comme ci-dessous (mots de passe en orange)
+4) John va lancer l'analyse et retourner les résultats, comme ci-dessous (mots de passe en orange)
 
 ![passwd](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/mdpusers.png)
