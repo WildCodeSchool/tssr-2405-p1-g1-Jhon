@@ -1,6 +1,6 @@
-# **Presentation de John The Ripper**
+# **Presentation de John the Ripper**
 
-## Qu’est-ce que [John The Ripper](https://www.openwall.com/john/) ?
+## Qu’est-ce que [John the Ripper](https://www.openwall.com/john/) ?
 
 John the Ripper (JDR) est un logiciel [open source](https://www.redhat.com/fr/topics/open-source/what-is-open-source#:~:text=Un%20logiciel%20Open%20Source%20est,l'examen%20par%20les%20pairs.) d’hacking de mot de passe. 
 
@@ -26,7 +26,7 @@ Il n’est pas nécessaire d’être physiquement devant la machine ayant les fi
 
 ## Comment fonctionne John the Ripper
 
-John The Ripper importe un fichier contenant les informations d’identifications chiffrées.
+John the Ripper importe un fichier contenant les informations d’identifications chiffrées.
 Son action consiste à déchiffrer le mot de passe, notamment grâce à une [attaque simple](https://fr.wikipedia.org/wiki/John_the_Ripper#:~:text=John%20dispose%20de%20quatre%20modes,directement%20dans%20un%20des%20modes.), par une [attaque par force brute](https://fr.wikipedia.org/wiki/John_the_Ripper#:~:text=John%20dispose%20de%20quatre%20modes,directement%20dans%20un%20des%20modes.) ou par [attaque incremental](https://fr.wikipedia.org/wiki/John_the_Ripper#:~:text=John%20dispose%20de%20quatre%20modes,directement%20dans%20un%20des%20modes.).
 
 ***cf*** : voir le paragraphe "Modes d'action" de la page [Wikipedia](https://fr.wikipedia.org/wiki/John_the_Ripper#:~:text=John%20dispose%20de%20quatre%20modes,directement%20dans%20un%20des%20modes.).
@@ -53,7 +53,9 @@ L'installation n'est pas impossible sur les autres OS, mais requiert d'installer
 ## Tests réalisés
 
 Dans un premier temps nous avons réalisé des tests avec des mots de passe très simples, puis de plus en plus complexes.
-**John The Ripper** est assez rapide avec des mots de passe s'approchant du nom d'utilisateur. En moins de 3 minutes les mots de passe sont trouvés avec le mode simple.
+JDR est assez rapide avec des mots de passe s'approchant du nom d'utilisateur. En moins de 3 minutes les mots de passe sont trouvés avec le mode simple.
 En utilisant l'attaque par force brute, il est légèrement moins rapide si le mot de passe contient moins de 6 caractères, et commence à prendre énormément de temps à partir de 7 caractères.
 
-
+<p align="center">
+  <img src="[https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/LogoJDR.png)" alt="LogoJDR"/>
+</p>
