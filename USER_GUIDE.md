@@ -18,9 +18,7 @@
 
 4) Mettre le fichier dans un dossier .zip protegé par un mot de passe
 
-   `zip -e protection.zip test.txt`
-
-   (créer le mot de passe quand demandé)
+   `zip -e protection.zip test.txt` (créer le mot de passe quand demandé)
 
 ### Étapes 5-6 : Remplacer "protection.zip" par le fichier protégé si déjà existant
 
