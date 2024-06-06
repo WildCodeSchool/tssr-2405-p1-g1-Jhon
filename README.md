@@ -1,6 +1,6 @@
-# **Presentation de John the Ripper**
+# **Presentation de John The Ripper**
 
-## Qu’est-ce que [John the Ripper](https://www.openwall.com/john/) ?
+## Qu’est-ce que [John The Ripper](https://www.openwall.com/john/) ?
 
 John the Ripper (JDR) est un logiciel [open source](https://www.redhat.com/fr/topics/open-source/what-is-open-source#:~:text=Un%20logiciel%20Open%20Source%20est,l'examen%20par%20les%20pairs.) d’hacking de mot de passe. 
 
@@ -31,27 +31,29 @@ Son action consiste à déchiffrer le mot de passe, notamment grâce à une [att
 
 ***cf*** : voir le paragraphe "Modes d'action" de la page [Wikipedia](https://fr.wikipedia.org/wiki/John_the_Ripper#:~:text=John%20dispose%20de%20quatre%20modes,directement%20dans%20un%20des%20modes.).
 
-- Pour le *mode simple*, JDR modifie le nom d'utilisateur  en ajoutant un ou plusieurs caractere a la suite du nom d'utilisateur
+- Pour le ***mode simple***, JDR ajoute un ou plusieurs caractères à la suite du nom d'utilisateur
   
-- Pour le *mode d'attaque par force brute*, il consulte à partir d’un dictionnaire de mots, il essaie tous les mots contenus dans celui-ci pour trouver le mot de passe utilisé. Il est possible que le mot de passe ne soit pas dans le dictionnaire utilisé, la nécessité d’ajouter un ou plusieurs dictionnaires sera nécessaire car John the Ripper peut travailler avec de multiples dictionnaires.
+- Pour le ***mode d'attaque par force brute***, il essaie tous les mots contenus dans un dictionnaire. Il est possible d'ajouter différents dictionnaires à JDR, plus ou moins complexes.
   
-- Pour le *mode incremental*, il va essayer toutes le combinaisons de caractères possible ,il a le desaventage d'etre extremement long, suivant la complexité du mot de passe, voir infini si la complexité est trop importante. Afin d’être moins chronophage dans le mode incrémental, il recherche dans un premier temps les caractères les plus utilisés statistiquement.
+- Pour le ***mode incremental***, il va essayer toutes le combinaisons de caractères possible ,il a le desaventage d'etre extremement long, suivant la complexité du mot de passe, voir infini si la complexité est trop importante. Afin d’être moins chronophage dans le mode incrémental, il recherche dans un premier temps les caractères les plus utilisés statistiquement.
 
 ## L'équipe
 
-- *Julie* était opératrice pour le sprint 1 et Scrum Master pour le sprint 2
-- *Jerome* était Product Owner pour le sprint 1 et opérateur pour le sprint 2
-- *Mehdi* était opérateur pour le sprint 1 et Product Owner pour le sprint 2
-- *Philippe* était Scrum Master pour le sprint 1 et Product Owner pour le sprint 2
+- **Julie** était opératrice pour le sprint 1 et Scrum Master pour le sprint 2
+- **Jerome** était Product Owner pour le sprint 1 et opérateur pour le sprint 2
+- **Mehdi** était opérateur pour le sprint 1 et Product Owner pour le sprint 2
+- **Philippe** était Scrum Master pour le sprint 1 et Product Owner pour le sprint 2
 
 ## Difficultées rencontrées
 
-Lors de l'installation du logiciel **John the Ripper** sur differents systèmes d'operations( OS ) ,tels que Ubuntu ; Debian  ou Kali, des difficultés sur certains OS nous ont obligés a choisir Kali pour simplifier l'utilisation du logiciel ***John the Ripper** .
-En effet l'OS Kali integre les fonctionnalités de ***John the Ripper*** à la difference de Ubunutu et Debian, ces fonctionnalités peuvent etre ajouter par l'installlation de differents paquets. 
-Nous avons buté sur l'utilisation de ***John the Ripper*** avec Kali pour la simple raison que nous n'etions pas dans le groupe **sudoers** .
+JDR n'étant pas installé nativement sur tous les OS, nous avons rencontré quelques difficultés à l'installer sur certains, notamment Ubuntu et Debian.
+Il est néanmoins natif à Kali, que nous avons donc privilégié.
+L'installation n'est pas impossible sur les autres OS, mais requiert d'installer des paquets complémentaires.
 
 ## Tests réalisés
 
-Dans un premier temps nous avons réalisé des tests avec des mots de passe tres simple ,puis de plus en plus fort .
-**John the Ripper** est assez rapide avec des mots de passe s'approchant du nom d'utilisateur. En moins de 3 minutes les mots de passe  sont trouvés avec la mehode **simple** .
-En utilisant l'attaque par force brute ,il est legèrement moins rapide si le mot de passe ne contient pas plus de 6 caractères ,au partir de 7 caractères c'est beaucoup plus long 
+Dans un premier temps nous avons réalisé des tests avec des mots de passe très simples, puis de plus en plus complexes.
+**John The Ripper** est assez rapide avec des mots de passe s'approchant du nom d'utilisateur. En moins de 3 minutes les mots de passe sont trouvés avec le mode simple.
+En utilisant l'attaque par force brute, il est légèrement moins rapide si le mot de passe contient moins de 6 caractères, et commence à prendre énormément de temps à partir de 7 caractères.
+
+
