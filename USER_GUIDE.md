@@ -31,4 +31,15 @@
 
 ## Tester la robustesse des mots de passe utilisateurs d'un serveur
 
-1) 
+1) Ouvrir un terminal de commande
+   
+2) Utiliser la commande **unshadow** pour lire les fichiers /passwd et /shadow qui contiennent les hashes (en sudo) et stocker le résultat dans une variable ou un fichier .txt
+  > sudo unshadow /etc/passwd /etc/shadow > hashinput
+
+3) Utiliser John pour décrypter les hashes
+  > john --format=crypt hashinput
+
+john va lancer l'analyse et effectuer différentes attaques jusqu'à trouver la bonne combinaison.
+
+L'option --format permet de préciser le type de hashage utilisé, ici "crypt" pour *generic crypt*
+Vous pouvez trouver l'intégralité des formats supportés par JTR [ici](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)
