@@ -7,7 +7,7 @@
  
 ## Configuration technique
 
-- Client : Windows 10 avec Putty installé [https://www.putty.org/]
+- Client : Windows 10 avec [Putty](https://www.putty.org/) installé
 - Serveur : Linux Kali 6.6.15 avec openssh-server installé et activé
  
 ## Étapes d'installation
