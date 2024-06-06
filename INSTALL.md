@@ -23,14 +23,17 @@
 ***Vous pouvez passer cette étape si vous travaillez directement sur le serveur***
 
 ### 2) Mettre à jour les paquets depuis le terminal
-> **sudo apt update**
+
+  `sudo apt update`
 
 ### 3) Installer John the Ripper
-> **sudo apt install john**
+
+  `sudo apt install john`
 
 
 ### 4) Vérifier si Joth the Ripper est correctement installé
-> **john**
+
+  `john`
 
 ![Good install](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/success.png)
 
