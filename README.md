@@ -37,7 +37,7 @@ Son action consiste à déchiffrer le mot de passe, notamment grâce à une [att
   
 - Pour le ***mode d'attaque par force brute***, il essaie tous les mots contenus dans un dictionnaire. Il est possible d'ajouter différents dictionnaires à JTR, plus ou moins complexes.
   
-- Pour le ***mode incremental***, il va essayer toutes le combinaisons de caractères possible, il a le désavantage d'être extrêmement long, suivant la complexité du mot de passe, voir infini si la complexité est trop importante. Afin d’être moins chronophage dans le mode incrémental, il recherche dans un premier temps les caractères les plus utilisés statistiquement.
+- Pour le ***mode incremental***, il va essayer toutes les combinaisons de caractères possible, il a le désavantage d'être extrêmement long, suivant la complexité du mot de passe, voir infini si la complexité est trop importante. Afin d’être moins chronophage dans le mode incrémental, il recherche dans un premier temps les caractères les plus utilisés statistiquement.
 
 ## L'équipe
 
