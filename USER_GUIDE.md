@@ -5,25 +5,32 @@
 ### Étapes 1 à 4 : Uniquement pour le test
 
 1) Ouvrir un terminal de commande
-> **Ctrl+Alt+T**
+
+`Ctrl+Alt+T`
 
 2) Créer un fichier.txt
-> **touch test.txt**
+
+`touch test.txt`
 
 3) Remplir le fichier.txt (cmd "ls" pour le test)
-> **ls > test.txt**
+   
+`ls > test.txt`
 
 4) Mettre le fichier dans un dossier .zip protegé par un mot de passe
-> **zip -e protection.zip test.txt**
+
+`zip -e protection.zip test.txt`
 
 (créer le mot de passe quand demandé)
 
-
 ### Étapes 5-6 : Remplacer "protection.zip" par le fichier protégé si déjà existant
+
 5) Extraire le mot passe hasher du dossier zip dans un fichier.txt
-> **zip2john protection.zip > hash.txt**
+   
+`zip2john protection.zip > hash.txt`
+
 6) Utiliser John pour decripter le mot de passe hasher
-> **john hash.txt**
+
+`john hash.txt`
 
 <p align="center">
 <img align="center" src="https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/JohnZIP.png">
@@ -34,10 +41,12 @@
 1) Ouvrir un terminal de commande
    
 2) Utiliser la commande **unshadow** pour lire les fichiers /passwd et /shadow qui contiennent les hashes (en sudo) et stocker le résultat dans une variable ou un fichier .txt
-  > sudo unshadow /etc/passwd /etc/shadow > hashinput
+   
+ `sudo unshadow /etc/passwd /etc/shadow > hashinput`
 
 3) Utiliser John pour décrypter les hashes
-  > john --format=crypt hashinput
+
+`john --format=crypt hashinput`
 
 john va lancer l'analyse et effectuer différentes attaques jusqu'à trouver la bonne combinaison.
 
