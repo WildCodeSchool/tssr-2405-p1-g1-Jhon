@@ -5,7 +5,7 @@
 ### Étapes 1 à 4 : Uniquement pour le test
 1) Ouvrir un terminal de commande
 > Ctrl+Alt+T
-2) Crée un fichier.txt
+2) Créer un fichier.txt
 > touch test.txt
 3) Remplir le fichier.txt (cmd "ls" pour le test)
 > ls > test.txt
