@@ -55,5 +55,7 @@ JDR est assez rapide avec des mots de passe s'approchant du nom d'utilisateur. E
 En utilisant l'attaque par force brute, il est légèrement moins rapide si le mot de passe contient moins de 6 caractères, et commence à prendre énormément de temps à partir de 7 caractères.
 
 
-![JDRlogo](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/LogoJDR.png)
+<p align="center">
+<img align="center" src="https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/LogoJDR.png">
+</p>
 
