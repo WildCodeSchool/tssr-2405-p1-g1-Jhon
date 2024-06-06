@@ -58,4 +58,4 @@ Dans un premier temps nous avons réalisé des tests avec des mots de passe trè
 JTR est assez rapide avec des mots de passe s'approchant du nom d'utilisateur. En moins de 3 minutes les mots de passe sont trouvés avec le mode simple.
 En utilisant l'attaque par force brute, il est légèrement moins rapide si le mot de passe contient moins de 6 caractères, et commence à prendre énormément de temps à partir de 7 caractères.
 
-# Bonne utilisation !
+# [Bonne installation](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/INSTALL.md) et [bonne utilisation](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/USER_GUIDE.md) !
