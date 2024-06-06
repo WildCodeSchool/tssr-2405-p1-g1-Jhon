@@ -6,7 +6,7 @@
 
 1) Ouvrir un terminal de commande
 
-   `Ctrl+Alt+T`
+   > **Ctrl+Alt+T**
 
 2) Créer un fichier.txt
 
