@@ -25,7 +25,6 @@
 ### 2) Mettre à jour les paquets depuis le terminal
 > **sudo apt update**
 
-
 ### 3) Installer John the Ripper
 > **sudo apt install john**
 
