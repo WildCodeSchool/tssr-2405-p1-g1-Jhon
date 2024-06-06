@@ -20,8 +20,6 @@ Il est capable d’attaquer les mots de passe hachés avec différentes fonction
 | [AFS](https://fr.wikipedia.org/wiki/Andrew_File_System "Andrew File System") |  
 | [*LM hashes*](https://fr.wikipedia.org/wiki/LM_hash "LM hash") de Windows NT/2000/XP/2003 |
 
-
-
 Il n’est pas nécessaire d’être physiquement devant la machine ayant les fichiers à hacker, il suffit que la machine ou John the Ripper est installé, dispose de la bibliothèque nécessaire au fonctionnement de ce logiciel et bien entendu un accès à distance à la machine où sont les fichiers hashés.
 
 ## Comment fonctionne John the Ripper
@@ -56,6 +54,6 @@ Dans un premier temps nous avons réalisé des tests avec des mots de passe trè
 JDR est assez rapide avec des mots de passe s'approchant du nom d'utilisateur. En moins de 3 minutes les mots de passe sont trouvés avec le mode simple.
 En utilisant l'attaque par force brute, il est légèrement moins rapide si le mot de passe contient moins de 6 caractères, et commence à prendre énormément de temps à partir de 7 caractères.
 
-<p align="center">
-  <img src="[https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/LogoJDR.png)" alt="LogoJDR"/>
-</p>
+
+![JDRlogo](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/LogoJDR.png)
+
