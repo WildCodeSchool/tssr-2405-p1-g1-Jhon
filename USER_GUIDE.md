@@ -18,3 +18,7 @@
 > zip2john protection.zip > hash.txt
 6) Utiliser John pour decripter le mot de passe hasher
 > john hash.txt
+
+<p align="center">
+<img align="center" src="https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/JohnZIP.png">
+</p>
