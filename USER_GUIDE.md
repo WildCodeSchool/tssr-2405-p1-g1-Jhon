@@ -26,7 +26,7 @@
    
    `zip2john protection.zip > hash.txt`
 
-6) Utiliser John pour decripter le mot de passe hasher
+6) Utiliser John pour décrypter le mot de passe hashé ("cat" dans notre cas, en orange sur l'image ci-dessous)
 
    `john hash.txt`
 
