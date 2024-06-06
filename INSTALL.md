@@ -13,14 +13,14 @@
 ## Étapes d'installation
 
 ### 1) Se connecter depuis le client sur le serveur avec Putty
+
+***Vous pouvez passer cette étape si vous travaillez directement sur le serveur***
    
 - Démarrer Putty, entrer l'adresse IP du serveur et cliquer sur "Ouvrir"
 
 ![Putty](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/Putty.png)
 
 - Entrer l'identifiant et le mot de passe du serveur
-
-***Vous pouvez passer cette étape si vous travaillez directement sur le serveur***
 
 ### 2) Mettre à jour les paquets depuis le terminal
 
