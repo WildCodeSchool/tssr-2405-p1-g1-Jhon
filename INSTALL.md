@@ -17,6 +17,8 @@
 	- Démarrer Putty, entrer l'adresse IP du serveur et cliquer sur "Ouvrir"
 	- Entrer l'identifiant et le mot de passe du serveur
 
+![Putty](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/Putty.png)
+
 	Vous pouvez passer cette étape si vous travaillez directement sur le serveur.
 
 
