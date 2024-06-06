@@ -38,7 +38,7 @@
 ![Good install](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/success.png)
 
 
-**Se référer à USER_GUIDE.md pour l'utilisation**
+**Se référer à [USER_GUIDE.md](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/edit/main/USER_GUIDE.md) pour l'utilisation**
 
 
 ## Difficultés et solutions
