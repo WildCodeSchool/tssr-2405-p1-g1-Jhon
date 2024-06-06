@@ -20,7 +20,7 @@
 
    `zip -e protection.zip test.txt`
 
-(créer le mot de passe quand demandé)
+   (créer le mot de passe quand demandé)
 
 ### Étapes 5-6 : Remplacer "protection.zip" par le fichier protégé si déjà existant
 
@@ -51,3 +51,7 @@ john va lancer l'analyse et effectuer différentes attaques jusqu'à trouver la 
 L'option --format permet de préciser le type de hashage utilisé, ici *"crypt"* pour *"generic crypt"*
 
 Vous pouvez trouver l'intégralité des formats supportés par JTR [ici](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)
+
+4) JTR va lancer l'analyse et retourner les résultats, comme ci-dessous (mots de passe en orange)
+
+![passwd](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/mdpusers.png)
