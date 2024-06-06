@@ -41,5 +41,5 @@
 
 john va lancer l'analyse et effectuer différentes attaques jusqu'à trouver la bonne combinaison.
 
-L'option --format permet de préciser le type de hashage utilisé, ici "crypt" pour *generic crypt*
+L'option --format permet de préciser le type de hashage utilisé, ici *"crypt"* pour *"generic crypt"*
 Vous pouvez trouver l'intégralité des formats supportés par JTR [ici](https://pentestmonkey.net/cheat-sheet/john-the-ripper-hash-formats)
