@@ -53,3 +53,5 @@
 4) John va lancer l'analyse et retourner les résultats, comme ci-dessous (mots de passe en orange)
 
 ![passwd](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/mdpusers.png)
+
+### Vous pouvez retrouver l'intégralité des options de john avec la commande `john --help` ou [ici](https://github.com/WildCodeSchool/tssr-2405-p1-g1-Jhon/blob/main/images/liste_commandes)
