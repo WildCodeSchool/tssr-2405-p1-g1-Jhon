@@ -6,7 +6,7 @@
 
 ## Qu’est-ce que [John the Ripper](https://www.openwall.com/john/) ?
 
-John the Ripper (JTR) est un logiciel [open source](https://www.redhat.com/fr/topics/open-source/what-is-open-source#:~:text=Un%20logiciel%20Open%20Source%20est,l'examen%20par%20les%20pairs.) d’hacking de mot de passe. 
+John the Ripper (JTR) est un logiciel [open source](https://www.redhat.com/fr/topics/open-source/what-is-open-source#:~:text=Un%20logiciel%20Open%20Source%20est,l'examen%20par%20les%20pairs.) de déchiffrage de mot de passe. 
 
 Il inclut : 
 - l'autodétection des [fonctions de hachage](https://fr.wikipedia.org/wiki/Fonction_de_hachage "Fonction de hachage") utilisées pour stocker les mots de passe
